@@ -90,7 +90,6 @@ trait ModelTrait
                 'getFirstError',
                 'getAttribute',
                 'getAttributeLabel',
-                'getAttributeHint',
                 'getOldAttribute',
             ];
             if (in_array($method->name, $skipMethods)) {
